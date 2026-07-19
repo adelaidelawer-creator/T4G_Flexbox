@@ -42,7 +42,7 @@ color:white;
 
 nav ul li a:hover{
 
-color:gold;
+background:purple;
 
 }
 
@@ -68,9 +68,11 @@ padding:40px;
 
 }
 
-.card{
+.card1, .card2, .card3{
 
 flex:1;
+
+background:white;
 
 padding:20px;
 
@@ -78,7 +80,7 @@ box-shadow:0 0 10px gray;
 
 }
 
-.card img{
+.card1 img{
 
 width:100%;
 
@@ -86,15 +88,35 @@ height:220px;
 
 object-fit:cover;
 
-}
-
-.card:hover{
-
-transform:translateY(-8px);
-
-transition:.3s;
+margin:15px 0;
 
 }
+
+.card2 img{
+
+width:70%;
+
+height:180px;
+
+object-fit:cover;
+
+margin:15px 0;
+
+}
+
+.card3 img{
+
+width:50%;
+
+height:100px;
+
+object-fit:cover;
+
+margin:15px 0;
+
+}
+
+
 .about{
 
 display:flex;
